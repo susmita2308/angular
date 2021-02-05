@@ -1,1 +1,23 @@
-<p>second works!</p>
+<table class="style">
+    <thead>
+        <tr class="style">
+            <th> collection id</th>
+            <th> description</th>
+            <th>image</th>
+           <th>rest count</th>
+           <th>share url</th>
+           <th>title</th>
+           <th>url</th>
+        </tr>
+    </thead>
+    <tbody class="style" *ngFor="let item of data.collections">
+        <td >{{item.collection.collection_id}}</td>
+         <td >{{item.collection.description</td>
+        <td >{{item.collection.image_url}}</td>
+        <td >{{item.collection.res_count}}</td>
+        <td >{{item.collection.share_url}}</td>
+        <td >{{item.collection.title}}</td>
+        <td >{{item.collection.url}}</td>
+        
+    </tbody>
+    </table>
