@@ -1,4 +1,5 @@
-.style {
-  border-collapse: collapse;
-  border: 3px solid black;
+table,
+th,
+td {
+  border: 1px solid black;
 }
